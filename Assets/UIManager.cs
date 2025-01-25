@@ -27,4 +27,8 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    public void ReStartEnding()
+    {
+        SceneManager.LoadScene(1);
+    }
 }
