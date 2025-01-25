@@ -14,10 +14,12 @@ public class UIManager : MonoBehaviour
     public Sprite[] imageMeme;
 
     public Animation anim;
+    public AudioSource failSound;
 
     public void Death(GameObject DeathReason)
     {
         anim.Play("DieOpen");
+        failSound.Play();
         image.sprite = imageMeme[Random.Range(0, imageMeme.Length)];
         textDeathReason.text = DeathReason.name;
     }
