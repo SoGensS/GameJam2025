@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     private float holdTimer = 0f; // Timer for holding spacebar
     private float cooldownTimer = 0f; // Timer for cooldown
     private bool isCooldown = false; // Whether the cooldown is active
+    public UIManager uiManager;
 
     void Start()
     {
@@ -131,7 +132,8 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Wall"))
         {
-            Destroy(gameObject);
+            uiManager.Death(collision.gameObject);
+            //Effect Play
         }
     }
 }
