@@ -25,6 +25,6 @@ public class UIManager : MonoBehaviour
     }
     public void ReStart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
