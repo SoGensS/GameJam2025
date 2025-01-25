@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -19,5 +20,10 @@ public class UIManager : MonoBehaviour
         anim.Play("DieOpen");
         image.sprite = imageMeme[Random.Range(0, imageMeme.Length)];
         textDeathReason.text = DeathReason.name;
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(0);
+        print("?");
     }
 }

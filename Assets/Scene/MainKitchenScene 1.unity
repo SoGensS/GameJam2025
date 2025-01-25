@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 12107.664, g: 6903.867, b: 3283.1465, a: 1}
+  m_IndirectSpecularColor: {r: 12450.586, g: 7244.75, b: 3534.1094, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -920,7 +920,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1350438459}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -956,7 +956,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190079
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1209,7 +1209,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190079
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1624,27 +1624,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463679625}
   m_CullTransparentMesh: 1
---- !u!95 &463679629
-Animator:
-  serializedVersion: 5
+--- !u!111 &463679629
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463679625}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b334bc70b0460400bbc290ea613c98f9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: fdcc295e8190e484c8dd1cc14b197eda, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &464087794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,7 +1790,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4272334502
+    rgba: 10921638
   m_fontColor: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -5231,8 +5226,8 @@ RectTransform:
   m_Children:
   - {fileID: 1165805453}
   - {fileID: 244496940}
-  - {fileID: 2105983503}
   - {fileID: 182987197}
+  - {fileID: 2105983503}
   m_Father: {fileID: 463679626}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5261,7 +5256,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5583,7 +5578,7 @@ GameObject:
   - component: {fileID: 1449149632}
   - component: {fileID: 1449149631}
   m_Layer: 0
-  m_Name: skin
+  m_Name: Bastard Baby
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6767,6 +6762,7 @@ MonoBehaviour:
   minScale: 0.5
   holdDuration: 3
   cooldownTime: 3
+  uiManager: {fileID: 1954501647}
 --- !u!54 &1716121957
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7917,6 +7913,7 @@ MonoBehaviour:
   minScale: 0.1
   holdDuration: 1
   cooldownTime: 3
+  uiManager: {fileID: 0}
 --- !u!54 &1903821788
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8447,7 +8444,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e98d4631cde5d44f3bf208d6147db6d3, type: 3}
   - {fileID: 21300000, guid: 2557adc3475454b87a068d19869c5ef4, type: 3}
   - {fileID: 21300000, guid: 080553f755dbe449eb2e522969cc91a3, type: 3}
-  anim: {fileID: 0}
+  anim: {fileID: 463679629}
 --- !u!1 &1964015606
 GameObject:
   m_ObjectHideFlags: 0
@@ -8832,7 +8829,7 @@ RectTransform:
   m_Children:
   - {fileID: 484523744}
   m_Father: {fileID: 1350438459}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8882,7 +8879,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2105983505}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1954501647}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2105983505
 MonoBehaviour:
   m_ObjectHideFlags: 0

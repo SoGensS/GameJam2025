@@ -133,6 +133,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Wall"))
         {
             uiManager.Death(collision.gameObject);
+            Destroy(gameObject);
             //Effect Play
         }
     }
