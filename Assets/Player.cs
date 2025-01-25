@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         // Get input from horizontal (X) and vertical (Y) axes
-        moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
         // Cooldown management
         if (isCooldown)
