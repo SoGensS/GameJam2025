@@ -4,18 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class TimelineSceneChanger : MonoBehaviour
 {
-    private PlayableDirector director;
-
-    private void Start()
-    {
-        // Get the PlayableDirector component
-        director = GetComponent<PlayableDirector>();
-
-        // Subscribe to the Timeline's stopped event
-        director.stopped += OnTimelineFinished;
-    }
-
-    private void OnTimelineFinished(PlayableDirector director)
+    public void OnTimelineFinished()
     {
         // Get the current scene's build index
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -32,15 +21,6 @@ public class TimelineSceneChanger : MonoBehaviour
         else
         {
             Debug.LogWarning("No next scene available. Reached the end of the build settings.");
-        }
-    }
-
-    private void OnDestroy()
-    {
-        // Unsubscribe from the event to avoid memory leaks
-        if (director != null)
-        {
-            director.stopped -= OnTimelineFinished;
         }
     }
 }

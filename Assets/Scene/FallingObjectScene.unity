@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 12414.398, g: 7191.8984, b: 3484.129, a: 1}
+  m_IndirectSpecularColor: {r: 12107.039, g: 6903.5703, b: 3284.1191, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -337,8 +337,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155766772}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.31131995, y: 4.71903, z: -0.6443578}
-  m_LocalScale: {x: 0.48735, y: 17.409779, z: 0.59754425}
+  m_LocalPosition: {x: 0.31131995, y: 7.53, z: -0.6443578}
+  m_LocalScale: {x: 0.48735, y: 10.64, z: 0.59754425}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 735841640}
@@ -2752,7 +2752,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1965407354}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: Restart
+        m_MethodName: ReStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3100,6 +3100,7 @@ GameObject:
   - component: {fileID: 1183140593}
   - component: {fileID: 1183140598}
   - component: {fileID: 1183140599}
+  - component: {fileID: 1183140600}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3353,6 +3354,10 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 3686604272554360570, guid: 00622a7c0dbc6b94782d36ce66929eec, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -5003908968240669956, guid: 00622a7c0dbc6b94782d36ce66929eec, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2338232012350573047, guid: 00622a7c0dbc6b94782d36ce66929eec, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!82 &1183140599
@@ -3451,6 +3456,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1183140600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183140592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12db6d5a318f5434ab1264962f40d7de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1187851202
 GameObject:
   m_ObjectHideFlags: 0
@@ -3964,8 +3981,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329623487}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -4.0260954, y: 4.71903, z: -0.6443578}
-  m_LocalScale: {x: 0.48735, y: 17.409779, z: 0.59754425}
+  m_LocalPosition: {x: -4.0260954, y: 7.53, z: -0.6443578}
+  m_LocalScale: {x: 0.48735, y: 10.64, z: 0.59754425}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 735841640}

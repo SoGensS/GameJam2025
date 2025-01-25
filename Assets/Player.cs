@@ -150,7 +150,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Wall"))
         {
-            StopAllPlayingTimelines();
+            //StopAllPlayingTimelines();
             uiManager.Death(collision.gameObject);
             Destroy(gameObject);
             //Effect Play

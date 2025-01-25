@@ -17,14 +17,12 @@ public class UIManager : MonoBehaviour
 
     public void Death(GameObject DeathReason)
     {
-        Debug.Log("?");
         anim.Play("DieOpen");
         image.sprite = imageMeme[Random.Range(0, imageMeme.Length)];
         textDeathReason.text = DeathReason.name;
     }
-    public void Restart()
+    public void ReStart()
     {
-        SceneManager.LoadScene(0);
-        Debug.Log("?");
+        SceneManager.LoadScene(1);
     }
 }
