@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 12118.1875, g: 6912.8906, b: 3289.7988, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -162,6 +162,22 @@ PlayableDirector:
   - key: {fileID: -8065244100476122242, guid: ecbb2333533e64141910da700302267f, type: 2}
     value: {fileID: 1774116646}
   - key: {fileID: 5051747969086308650, guid: ecbb2333533e64141910da700302267f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -4424642571661644360, guid: ecbb2333533e64141910da700302267f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7691759042156783280, guid: ecbb2333533e64141910da700302267f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5447283954685075087, guid: ecbb2333533e64141910da700302267f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2442349906185462379, guid: ecbb2333533e64141910da700302267f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5023183860452565112, guid: ecbb2333533e64141910da700302267f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -5754481474056908942, guid: ecbb2333533e64141910da700302267f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 2064898226232050863, guid: ecbb2333533e64141910da700302267f, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2354328714541288318, guid: ecbb2333533e64141910da700302267f, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
@@ -8263,7 +8279,7 @@ PlayableDirector:
   - key: {fileID: -7886713727257241608, guid: 1b913984950fc864a9b6b17b98e000d9, type: 2}
     value: {fileID: 981084483}
   - key: {fileID: 7844057131460143392, guid: 1b913984950fc864a9b6b17b98e000d9, type: 2}
-    value: {fileID: 1716121955}
+    value: {fileID: 0}
   - key: {fileID: 37567324608114918, guid: 1b913984950fc864a9b6b17b98e000d9, type: 2}
     value: {fileID: 2029546847}
   - key: {fileID: 5633033079362298285, guid: 1b913984950fc864a9b6b17b98e000d9, type: 2}
@@ -11317,11 +11333,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efe385b61996d455ba94c16a63c856f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  shrinkSpeed: 0.1
-  restoreSpeed: 0.1
-  minScale: 0.1
-  holdDuration: 1
+  moveSpeed: 10
+  shrinkSpeed: 2
+  restoreSpeed: 2
+  minScale: 0.5
+  holdDuration: 3
   cooldownTime: 3
   uiManager: {fileID: 1962176755}
 --- !u!54 &1716121957
@@ -12133,7 +12149,7 @@ MonoBehaviour:
   minScale: 0.1
   holdDuration: 1
   cooldownTime: 3
-  uiManager: {fileID: 0}
+  uiManager: {fileID: 1962176755}
 --- !u!54 &1903821788
 Rigidbody:
   m_ObjectHideFlags: 0

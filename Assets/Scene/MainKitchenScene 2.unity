@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 12107.102, g: 6903.6484, b: 3284.1191, a: 1}
+  m_IndirectSpecularColor: {r: 12115.32, g: 6907.242, b: 3284.3086, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6876,7 +6876,7 @@ GameObject:
   - component: {fileID: 1449149632}
   - component: {fileID: 1449149631}
   m_Layer: 0
-  m_Name: skin
+  m_Name: Bastard Baby
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8390,7 +8390,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 642474039}
   m_RootOrder: 0
@@ -9606,7 +9606,7 @@ GameObject:
   - component: {fileID: 1867152722}
   - component: {fileID: 1867152721}
   m_Layer: 0
-  m_Name: skin
+  m_Name: Bastard Baby
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19634,7 +19634,7 @@ GameObject:
   - component: {fileID: 269109179064802813}
   - component: {fileID: 5670766440471093008}
   m_Layer: 0
-  m_Name: skin
+  m_Name: Bastard Baby
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
