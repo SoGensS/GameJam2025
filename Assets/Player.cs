@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class Player : MonoBehaviour
 {
@@ -128,10 +129,28 @@ public class Player : MonoBehaviour
         holdTimer = 0f;
     }
 
+    void StopAllPlayingTimelines()
+    {
+        // Find all PlayableDirector components in the scene
+        PlayableDirector[] directors = FindObjectsOfType<PlayableDirector>();
+
+        foreach (PlayableDirector director in directors)
+        {
+            // Check if the timeline is currently playing
+            if (director.state == PlayState.Playing)
+            {
+                // Stop the timeline
+                director.Pause();
+                Debug.Log($"Stopped timeline on object: {director.gameObject.name}");
+            }
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Wall"))
         {
+            StopAllPlayingTimelines();
             uiManager.Death(collision.gameObject);
             Destroy(gameObject);
             //Effect Play

@@ -1,5 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -17,6 +17,7 @@ public class UIManager : MonoBehaviour
 
     public void Death(GameObject DeathReason)
     {
+        Debug.Log("?");
         anim.Play("DieOpen");
         image.sprite = imageMeme[Random.Range(0, imageMeme.Length)];
         textDeathReason.text = DeathReason.name;
@@ -24,6 +25,6 @@ public class UIManager : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(0);
-        print("?");
+        Debug.Log("?");
     }
 }
