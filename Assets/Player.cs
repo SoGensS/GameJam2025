@@ -152,6 +152,7 @@ public class Player : MonoBehaviour
         {
             StopAllPlayingTimelines();
             uiManager.Death(collision.gameObject);
+            Debug.Log("Test");
             Destroy(gameObject);
             //Effect Play
         }
