@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 12106.961, g: 6903.6797, b: 3284.166, a: 1}
+  m_IndirectSpecularColor: {r: 11734.43, g: 6801.617, b: 3335.746, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1538,7 +1538,7 @@ GameObject:
   - component: {fileID: 334293905}
   - component: {fileID: 334293904}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: A Plank
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1635,7 +1635,7 @@ GameObject:
   - component: {fileID: 377635896}
   - component: {fileID: 377635895}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: A Plank
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2380,7 +2380,7 @@ GameObject:
   - component: {fileID: 619729394}
   - component: {fileID: 619729393}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: A Plank
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2394,8 +2394,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619729391}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6273726, y: 12.7834215, z: 4.0217505}
-  m_LocalScale: {x: 16.459904, y: 6.654181, z: 0.6202898}
+  m_LocalPosition: {x: 1.6273726, y: 12.31, z: 4.0217505}
+  m_LocalScale: {x: 16.459904, y: 5.709287, z: 0.6202898}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 390236256}
@@ -3223,7 +3223,7 @@ GameObject:
   - component: {fileID: 754150162}
   - component: {fileID: 754150161}
   m_Layer: 0
-  m_Name: Cube (8)
+  m_Name: A Plank
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3237,8 +3237,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754150159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.1845698, y: 21.665743, z: 11.521494}
-  m_LocalScale: {x: 6.002558, y: 6.2452025, z: 0.6202898}
+  m_LocalPosition: {x: -3.1845698, y: 22.309, z: 11.521494}
+  m_LocalScale: {x: 6.002558, y: 4.958691, z: 0.6202898}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 390236256}
@@ -3480,7 +3480,7 @@ GameObject:
   - component: {fileID: 819662886}
   - component: {fileID: 819662885}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: A Plank
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5248,7 +5248,7 @@ GameObject:
   - component: {fileID: 1179089483}
   - component: {fileID: 1179089482}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: A Plank
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7238,7 +7238,7 @@ GameObject:
   - component: {fileID: 1503193606}
   - component: {fileID: 1503193605}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: A Plank
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7252,8 +7252,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503193603}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0699704, y: 16.885607, z: 11.521494}
-  m_LocalScale: {x: 9.429697, y: 15.219992, z: 0.6202898}
+  m_LocalPosition: {x: 2.594, y: 16.885607, z: 11.521494}
+  m_LocalScale: {x: 8.383, y: 15.219992, z: 0.6202898}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 390236256}
@@ -7835,7 +7835,7 @@ GameObject:
   - component: {fileID: 1595711298}
   - component: {fileID: 1595711297}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: A Plank
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7952,7 +7952,7 @@ GameObject:
   - component: {fileID: 1648780139}
   - component: {fileID: 1648780138}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: A Plank
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7966,8 +7966,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648780136}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6273726, y: 21.168566, z: 4.0217505}
-  m_LocalScale: {x: 13.146887, y: 6.654181, z: 0.6202898}
+  m_LocalPosition: {x: 1.6273726, y: 22.971, z: 4.0217505}
+  m_LocalScale: {x: 13.146887, y: 3.0476148, z: 0.6202898}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 390236256}
