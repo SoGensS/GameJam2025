@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 12068.445, g: 6876.9297, b: 3267.957, a: 1}
+  m_IndirectSpecularColor: {r: 12110.18, g: 6906.4375, b: 3285.6309, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1669,6 +1669,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 390236256}
     m_Modifications:
+    - target: {fileID: 3242656430277014054, guid: 25c5f09cec8c7ba4194c847f4f3136d5,
+        type: 3}
+      propertyPath: m_Name
+      value: Small Box
+      objectReference: {fileID: 0}
     - target: {fileID: 6240015194128607494, guid: 25c5f09cec8c7ba4194c847f4f3136d5,
         type: 3}
       propertyPath: m_Name
@@ -13867,7 +13872,7 @@ GameObject:
   - component: {fileID: 632762648157085799}
   - component: {fileID: 9003222076283592576}
   m_Layer: 0
-  m_Name: Line76
+  m_Name: Pot
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14483,7 +14488,7 @@ GameObject:
   - component: {fileID: 911907569107039820}
   - component: {fileID: 6254906134267713706}
   m_Layer: 0
-  m_Name: Line77
+  m_Name: Pot
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17473,7 +17478,7 @@ GameObject:
   - component: {fileID: 8369007028781698910}
   - component: {fileID: 8369007028781698911}
   m_Layer: 0
-  m_Name: Box18
+  m_Name: Cabinet Door
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24716,7 +24721,7 @@ GameObject:
   - component: {fileID: 7341967666098878115}
   - component: {fileID: 7341967666098878116}
   m_Layer: 0
-  m_Name: Plane01
+  m_Name: Towel
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24883,8 +24888,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2476443127607052956}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0000051483385, y: 0, z: 0.00000007188826}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25169,7 +25174,7 @@ GameObject:
   - component: {fileID: 3255767821180422431}
   - component: {fileID: 6381212804378041693}
   m_Layer: 0
-  m_Name: Line78
+  m_Name: Pot
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
