@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
     private bool isCooldown = false; // Whether the cooldown is active
     public UIManager uiManager;
 
+    private bool godMode = false;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -48,6 +50,15 @@ public class Player : MonoBehaviour
                 isCooldown = false;
                 cooldownTimer = 0f;
             }
+        }
+
+        if (Input.GetKey(KeyCode.Z))
+        {
+            godMode = true;
+        }
+        if (Input.GetKey(KeyCode.X))
+        {
+            godMode = false;
         }
 
         // Handle shrinking logic if cooldown is not active
@@ -148,7 +159,7 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Wall"))
+        if (collision.gameObject.CompareTag("Wall") && !godMode)
         {
             StopAllPlayingTimelines();
             uiManager.Death(collision.gameObject);
